@@ -4,9 +4,11 @@
 
 `prompt-audience-research` даёт контракт единой базы знаний: клиент мечты, портрет и Big Idea, CustDev, распаковка смыслов и STP.
 
-CustDev здесь включает симуляцию: её результаты нельзя выдавать за реальные интервью.
+CustDev разделяет реальные интервью и симуляцию; происхождение и ограничения сохраняются в реестре.
 
-Это источник формата исследования, а не runtime или API HVCO; дополнительных GitHub-зависимостей в проверенном audience-research не выявлено.
+Это источник формата исследования, а не runtime или API HVCO.
+
+В audience-research есть опциональный адаптер каркаса для ГККД; для базы и HVCO этот репозиторий не требуется.
 
 `promt-copywriting` предоставляет только опциональный локальный журнал `scripts/loop.py` и его справку `docs/loop-tool.md`.
 
@@ -22,7 +24,7 @@ HVCO не заимствует его авторский голос, workflow и
 
 ```sh
 git clone https://github.com/BermanRoman/prompt-audience-research.git prompt-audience-research
-git -C prompt-audience-research checkout --detach d9959823dcd659b03c2527498310b0ba266db1f1
+git -C prompt-audience-research checkout --detach 375c633fe7bfab7dda333824ea03a44f30debcb4
 git -C prompt-audience-research rev-parse HEAD
 git -C prompt-audience-research status --short --untracked-files=all
 

@@ -3,8 +3,8 @@
     {
       "name": "prompt-audience-research",
       "url": "https://github.com/BermanRoman/prompt-audience-research.git",
-      "revision": "d9959823dcd659b03c2527498310b0ba266db1f1",
-      "files": ["audience-research.md", "README.md"],
+      "revision": "375c633fe7bfab7dda333824ea03a44f30debcb4",
+      "files": ["audience-research.md", "evidence-contract.md", "README.md"],
       "purpose": "Источник контракта единой базы знаний аудитории; не runtime и не API."
     },
     {
