@@ -1,0 +1,18 @@
+{
+  "dependencies": [
+    {
+      "name": "prompt-audience-research",
+      "url": "https://github.com/BermanRoman/prompt-audience-research.git",
+      "revision": "d9959823dcd659b03c2527498310b0ba266db1f1",
+      "files": ["audience-research.md", "README.md"],
+      "purpose": "Источник контракта единой базы знаний аудитории; не runtime и не API."
+    },
+    {
+      "name": "promt-copywriting",
+      "url": "https://github.com/BermanRoman/promt-copywriting.git",
+      "revision": "bb091b6003f836106d09ed2bd5e91a8fb5d961dd",
+      "files": ["scripts/loop.py", "docs/loop-tool.md"],
+      "purpose": "Опциональный локальный журнал проверок текста; без переноса авторского голоса, workflow и персоны читателя."
+    }
+  ]
+}
